@@ -7,10 +7,26 @@
   </ion-header>
   
   <ion-content padding>
-    Hello World!
     <p>
-      Welcome to my awesome app!
+      Welcome to the login page! Click the button below to change your profile.
     </p>
+    <ion-list>
+
+        <ion-item>
+          <ion-label floating>Username</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      
+      </ion-list>
+
+      <div padding>
+        <button ion-button full (click)="navigateToProfile()">Profile</button>
+      </div>
   
-    <button ion-button (click)="navigateToProfile()">Profile</button>
+    
   </ion-content>

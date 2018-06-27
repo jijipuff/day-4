@@ -13,5 +13,5 @@ export class RegistrationPage {
   navigateToLogin() {
     console.log("Navigating...")
     this.navCtrl.push(LoginPage);
-  }
+    }
 }

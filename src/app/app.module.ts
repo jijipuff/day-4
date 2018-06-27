@@ -9,6 +9,12 @@ import { HomePage } from '../pages/home/home';
 import { RegistrationPage} from '../pages/registration/registration'
 import { LoginPage} from '../pages/login/login'
 import { ProfilePage} from '../pages/profile/profile'
+import { ProductsPage } from '../pages/products/products'
+import { Sloth1Page } from '../pages/sloth1/sloth1'
+import { Sloth2Page } from '../pages/sloth2/sloth2'
+import { Sloth3Page } from '../pages/sloth3/sloth3'
+import { Sloth4Page } from '../pages/sloth4/sloth4'
+import { Sloth5Page } from '../pages/sloth5/sloth5'
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { ProfilePage} from '../pages/profile/profile'
     HomePage,
     RegistrationPage,
     LoginPage,
-    ProfilePage
+    ProfilePage,
+    ProductsPage,
+    Sloth1Page,
+    Sloth2Page,
+    Sloth3Page,
+    Sloth4Page,
+    Sloth5Page
   ],
   imports: [
     BrowserModule,
@@ -28,7 +40,13 @@ import { ProfilePage} from '../pages/profile/profile'
     HomePage,
     RegistrationPage,
     LoginPage,
-    ProfilePage
+    ProfilePage,
+    ProductsPage,
+    Sloth1Page,
+    Sloth2Page,
+    Sloth3Page,
+    Sloth4Page,
+    Sloth5Page
   ],
   providers: [
     StatusBar,

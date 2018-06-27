@@ -10,7 +10,7 @@ export class ProfilePage {
 
   constructor(public navCtrl: NavController) {}
     
-  navigateToLogin() {
+  navigateToHome() {
     console.log("Navigating...")
     this.navCtrl.push(HomePage);
     }
