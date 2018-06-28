@@ -7,8 +7,18 @@
   </ion-header>
   
   <ion-content padding>
-    Register Here!
+    <h1> Not Yet Registered? </h1>
     <ion-list>
+
+      <ion-item>
+        <ion-label floating>Your Name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Your Email </ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
 
       <ion-item>
         <ion-label floating>Username</ion-label>
@@ -19,8 +29,15 @@
         <ion-label floating>Password</ion-label>
         <ion-input type="password"></ion-input>
       </ion-item>
+
+      <ion-item>
+        <ion-label floating>Confirm Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+        
     
     </ion-list>
-
+    <button ion-button full>Register</button>
     <button ion-button full (click)="navigateToLogin()">Login</button>
   </ion-content>

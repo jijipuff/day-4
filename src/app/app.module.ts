@@ -15,6 +15,9 @@ import { Sloth2Page } from '../pages/sloth2/sloth2'
 import { Sloth3Page } from '../pages/sloth3/sloth3'
 import { Sloth4Page } from '../pages/sloth4/sloth4'
 import { Sloth5Page } from '../pages/sloth5/sloth5'
+import { PaymentPage } from '../pages/payment/payment'
+import { HistoryPage } from '../pages/history/history'
+import { SavePage } from '../pages/save/save'
 
 @NgModule({
   declarations: [
@@ -28,7 +31,11 @@ import { Sloth5Page } from '../pages/sloth5/sloth5'
     Sloth2Page,
     Sloth3Page,
     Sloth4Page,
-    Sloth5Page
+    Sloth5Page,
+    PaymentPage,
+    HistoryPage,
+    SavePage
+
   ],
   imports: [
     BrowserModule,
@@ -46,7 +53,12 @@ import { Sloth5Page } from '../pages/sloth5/sloth5'
     Sloth2Page,
     Sloth3Page,
     Sloth4Page,
-    Sloth5Page
+    Sloth5Page,
+    PaymentPage,
+    HistoryPage,
+    SavePage
+
+
   ],
   providers: [
     StatusBar,

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { PaymentPage } from '../payment/payment';
+import { SavePage } from '../save/save';
 
 /**
  * Generated class for the Sloth3Page page.
@@ -15,6 +17,15 @@ import { NavController, NavParams } from 'ionic-angular';
 export class Sloth3Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+  navigateToPayment() {
+    console.log("Navigating...")
+    this.navCtrl.push(PaymentPage);
+  }
+
+  navigateToSave() {
+    console.log("Navigating...")
+    this.navCtrl.push(SavePage);
   }
 
   ionViewDidLoad() {

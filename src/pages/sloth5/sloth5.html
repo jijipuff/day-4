@@ -7,14 +7,27 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Sloth5</ion-title>
+    <ion-title>Meet Robert IV!</ion-title>
   </ion-navbar>
+
 
 </ion-header>
 
 
+
 <ion-content padding>
   <ion-img style="width: 500px; height: 500px;" src="https://cdn1.wimp.com/images/pthumbs/2016/10/2d4f24b7d6c267573c636dcc9e2ba852_800_0.jpg"></ion-img>
-  <button ion-button color="secondary">Buy</button>
-  <button ion-button color="danger">Save For Later</button>
+  <ion-content padding>
+  <button ion-button color="secondary" (click)="navigateToPayment()">Check Out</button>
+  <button ion-button color="danger" (click)="navigateToSave()">Save For Later</button>
+  <p>
+    Price: 
+    Rating:  
+    Description:
+    Name: Robert IV
+    Age: N/A      
+    Likes: Playing Pool and drinking a nice IPA
+    Dislikes: Hipsters 
+    </p>
 </ion-content>
+

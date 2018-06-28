@@ -7,15 +7,28 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Sloth3</ion-title>
+    <ion-title>Meet Jimbo!</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
+
 <ion-content padding>
   <ion-img style="width: 500px; height: 500px;" src="https://i.ytimg.com/vi/aaqzPMOd_1g/maxresdefault.jpg"></ion-img>
-  <button ion-button color="secondary">Buy</button>
-  <button ion-button color="danger">Save For Later</button>
+  <ion-content padding>
+  <button ion-button color="secondary" (click)="navigateToPayment()">Check Out</button>
+  <button ion-button color="danger" (click)="navigateToSave()">Save For Later</button>
   <ion-icon name="heart"></ion-icon>
+  <p>
+    Price: 
+    Rating:  
+      
+    Description:
+    Name: Jimbo
+    Age: 5 months
+    Likes: Netflix 
+    Dislikes: Bad Instagram Selfies
+    </p>
 </ion-content>
+

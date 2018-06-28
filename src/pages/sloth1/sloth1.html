@@ -7,16 +7,32 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Sloth1</ion-title>
+    <ion-title>Meet Ivan!</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
+
 <ion-content padding>
   <ion-img style="width: 500px; height: 500px;" src="https://i1.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/05/sloth2.jpg?w=880"></ion-img>
-  <button ion-button color="secondary">Buy</button>
-  <button ion-button color="danger">Save For Later</button>
+  <ion-content padding>
+  <button ion-button color="secondary" (click)="navigateToPayment()">Check Out</button>
+  <button ion-button color="danger" (click)="navigateToSave()">Save For Later</button>
   <ion-icon name="heart"></ion-icon>
+  <p>
+    Price: 
+    Rating:  
+    Description: 
+    Name: Ivan 
+    Age: 2 Months
+    Likes: Bellyrubs
+    Dislikes: The sound of knives and forks on a plate
+     
+  </p>
 </ion-content>
+
+
+  
+
 

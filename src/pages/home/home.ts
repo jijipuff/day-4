@@ -1,15 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { RegistrationPage } from '../registration/registration';
 import { ProductsPage } from '../products/products';
-
+ 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController) {
+
+  }
 
   navigateToRegister() {
     console.log("Navigating...")
@@ -19,4 +21,11 @@ export class HomePage {
       console.log("Navigating...")
       this.navCtrl.push(ProductsPage);
     } 
+
   }
+
+  
+
+
+
+

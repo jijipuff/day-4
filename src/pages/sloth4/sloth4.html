@@ -7,15 +7,27 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Sloth4</ion-title>
+    <ion-title>Meet Craig!</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
+
 <ion-content padding>
   <ion-img style="width: 500px; height: 500px;" src="https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2016/05/sloth7u.jpg?w=880"></ion-img>
-  <button ion-button color="secondary">Buy</button>
-  <button ion-button color="danger">Save For Later</button>
+  <ion-content padding>
+  <button ion-button color="secondary" (click)="navigateToPayment()">Check Out</button>
+  <button ion-button color="danger" (click)="navigateToSave()">Save For Later</button>
   <ion-icon name="heart"></ion-icon>
+  <p>
+    Price: 
+    Rating:  
+      
+    Description:
+    Name: Craig
+    Age: 2 Years Old
+    Likes: Nothing
+    Dislikes: Everything
+    </p>
 </ion-content>

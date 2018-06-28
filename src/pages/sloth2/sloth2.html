@@ -7,15 +7,28 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Sloth2</ion-title>
+    <ion-title>Meet Tim!</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
+
+
 <ion-content padding>
   <ion-img style="width: 500px; height: 500px;" src="https://media.treehugger.com/assets/images/2018/03/sloth-sounds.jpg.860x0_q70_crop-scale.jpg"></ion-img>
-  <button ion-button color="secondary">Buy</button>
-  <button ion-button color="danger">Save For Later</button>
+  <ion-content padding>
+  <button ion-button color="secondary" (click)="navigateToPayment()">Check Out</button>
+  <button ion-button color="danger" (click)="navigateToSave()">Save For Later</button>
   <ion-icon name="heart"></ion-icon>
+  <p>
+    Price: 
+    Rating:  
+      
+    Description:
+    Name: Tim
+    Age: 1 Month, 23 days
+    Likes: Long walks on the beach
+    Dislikes: Pickles
+    </p>
 </ion-content>
